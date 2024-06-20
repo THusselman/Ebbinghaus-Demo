@@ -156,8 +156,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LeftController: {fileID: 0}
   m_RightController: {fileID: 0}
-  m_LeftControllerOculusPackage: {fileID: 0}
-  m_RightControllerOculusPackage: {fileID: 0}
+  m_LeftControllerOculusPackage: {fileID: 1644779851}
+  m_RightControllerOculusPackage: {fileID: 1814793547}
 --- !u!4 &67518917
 Transform:
   m_ObjectHideFlags: 0
@@ -969,7 +969,7 @@ Transform:
   m_GameObject: {fileID: 937344363}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.8, y: -0.1, z: 0}
+  m_LocalPosition: {x: -0.71, y: -0.67, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1265,6 +1265,8 @@ GameObject:
   - component: {fileID: 1293539515}
   - component: {fileID: 1293539514}
   - component: {fileID: 1293539513}
+  - component: {fileID: 1293539518}
+  - component: {fileID: 1293539517}
   m_Layer: 0
   m_Name: Sphere (16)
   m_TagString: Untagged
@@ -1358,6 +1360,32 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 94.257, z: 0}
+--- !u!114 &1293539517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293539512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838cf6fac0889ea499d583059a5935dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleChange: 0.1
+--- !u!114 &1293539518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1293539512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838cf6fac0889ea499d583059a5935dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleChange: 0.1
 --- !u!1 &1337454119
 GameObject:
   m_ObjectHideFlags: 0
@@ -1876,13 +1904,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1540591335}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6874334, z: -0, w: 0.7262475}
+  m_LocalRotation: {x: 0, y: 0.73288137, z: 0, w: 0.68035644}
   m_LocalPosition: {x: 2, y: 3, z: 5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -86.855, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 94.257, z: 0}
 --- !u!1 &1644779851
 GameObject:
   m_ObjectHideFlags: 0
@@ -1913,7 +1941,7 @@ Transform:
   m_GameObject: {fileID: 1644779851}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.13, y: -0.52, z: 1.83}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2195,7 +2223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6803edce0201f574f923fd9d10e5b30a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 0}
+  m_InteractionManager: {fileID: 753520178}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2656,6 +2684,7 @@ GameObject:
   - component: {fileID: 1666051649}
   - component: {fileID: 1666051648}
   - component: {fileID: 1666051647}
+  - component: {fileID: 1666051651}
   m_Layer: 0
   m_Name: Sphere (8)
   m_TagString: Untagged
@@ -2749,6 +2778,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 94.257, z: 0}
+--- !u!114 &1666051651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666051646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 838cf6fac0889ea499d583059a5935dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scaleChange: 0.1
 --- !u!1 &1811596069
 GameObject:
   m_ObjectHideFlags: 0
@@ -2884,7 +2926,7 @@ Transform:
   m_GameObject: {fileID: 1814793547}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.71, y: 0.65, z: 0.21}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3538,7 +3580,7 @@ Transform:
   m_GameObject: {fileID: 1847460732}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32, y: -0.33, z: 4.41}
+  m_LocalPosition: {x: 1.086, y: -0.33, z: 4.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
